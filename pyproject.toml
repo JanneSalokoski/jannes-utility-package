@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jannes_utility_package"
+version = "0.0.1"
+authors = [
+  { name="Janne Salokoski", email="salokoski.janne@gmail.com" },
+]
+description = "A collection of utility tools I have created"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JanneSalokoski/jannes-utility-package"
+"Bug Tracker" = "https://github.com/JanneSalokoski/jannes-utility-package/issues"
