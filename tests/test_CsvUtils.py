@@ -2,7 +2,7 @@ import unittest
 
 import os
 
-from src.CsvUtils.csvutils import CsvUtils
+from jannes_utility_package.CsvUtils.csvutils import CsvUtils
 
 def write_file(file, contents):
 	with open(file, "w", encoding="utf-8") as file:
